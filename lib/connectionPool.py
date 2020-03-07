@@ -2,7 +2,8 @@ import urllib3
 import socket
 import struct
 import logging
-from urllib3.packages.six.moves.queue import Empty
+#from urllib3.packages.six.moves.queue import Empty
+from Queue import Empty
 
 
 urllib3.disable_warnings()

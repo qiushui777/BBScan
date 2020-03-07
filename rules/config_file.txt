@@ -17,6 +17,7 @@
 /.idea/modules.xml      {status=200}    {tag="ProjectModuleManager"}    {type="xml"}    {root_only}
 
 /sftp-config.json	         {status=200}    {type="application/json"}   {tag="password"}  {root_only}
+/_wpeprivate/config.json	         {status=200}    {type="application/json"}     {root_only}
 # /app.cfg                   {status=206}    {root_only}
 
 # db config

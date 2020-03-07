@@ -23,6 +23,21 @@
 
 /server-status          {tag="<title>Apache Status</title>"}   {root_only}
 /solr/                  {tag="<title>Solr Admin</title>"} {status=200} {type="html"}   {root_only}
+/application.wadl          {status=200}   {root_only}
+/api/application.wadl          {status=200}   {root_only}
+/swagger          {status=200}   {root_only}
+/swagger-ui          {status=200}   {root_only}
+/swagger-ui.html          {status=200}   {root_only}
+/apis/swagger-ui.html          {status=200}   {root_only}
+/api/swagger-ui          {status=200}   {root_only}
+/api/swagger          {status=200}   {root_only}
+/v1/          {status=200}   {root_only}
+/v2/          {status=200}   {root_only}
+/api/v1/         {status=200}   {root_only}
+/api/v2/         {status=200}   {root_only}
+/service/yuntuSign         {status=200}   {root_only}
+/xprober.php         {status=200}   {root_only}
+/ocp.php         {status=200}   {root_only}
 
 
 # /nagios/         
@@ -55,3 +70,5 @@
 # /php.ini                     {status=200}    {type_no="html"}  {tag="["}
 
 /data.txt             {status=200}      {type="text/plain"}   {root_only}
+
+
